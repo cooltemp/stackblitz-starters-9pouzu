@@ -13,6 +13,7 @@ const unitData = {
   model: 'MSZ-AP25',
   brand: 'Mitsubishi Electric',
   type: 'High Wall Split System',
+  url: '/msz-ap25',
   description:
     "<p>New Zealand's quietest high wall heat pump with advanced energy efficiency and R32 refrigerant.</p>",
   price: {
@@ -172,7 +173,6 @@ const createUnitEntry = async () => {
       {
         modelId: MODEL_ID,
         name: unitData.brand + ' ' + unitData.model,
-        url: '/' + unitData.model,
         data: unitData,
       },
       {
